@@ -1,0 +1,17 @@
+[project]
+name = "llm-from-scratch"
+version = "0.1.0"
+description = "Learning Large Language Models from the ground up"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "kagglehub",
+    "ipython",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+]
